@@ -1,0 +1,42 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="85dp"
+            android:text="Look Here...."
+            android:id="@+id/textView"
+            android:layout_gravity="center"
+            android:autoText="false"
+            android:textColor="#ffffff"
+            android:textSize="36dp"
+            android:textAlignment="center" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgClose"
+        android:layout_gravity="right|top"
+        android:background="@android:drawable/ic_menu_close_clear_cancel"
+        android:padding="20dp"/>
+
+</FrameLayout>
